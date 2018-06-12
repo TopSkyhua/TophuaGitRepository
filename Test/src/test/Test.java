@@ -19,7 +19,7 @@ public class Test {
 		String s = "729229475035567362660005267";
 		System.out.println(s.substring(0,9));
 		
-		System.out.println();
+		System.out.println("sjdkljadjaso");
 	}
 
 }
