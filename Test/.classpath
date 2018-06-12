@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/CommonJavaProject/libs/json/jackson-databind-2.8.5.jar"/>
+	<classpathentry kind="lib" path="/dspm-UserOwner/WebRoot/WEB-INF/lib/javaee.jar"/>
+	<classpathentry kind="lib" path="libs/commons-codec-1.9.jar" sourcepath="C:/Users/east/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar"/>
+	<classpathentry kind="lib" path="libs/zxing-j2se-1.7.jar"/>
+	<classpathentry kind="lib" path="libs/zxing-core-1.6.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CommonJavaProject"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
