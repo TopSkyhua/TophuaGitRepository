@@ -144,6 +144,11 @@ Create Procedure `spUpdateDatabase`(
 	If fnColumnExists('tbOperatorParams','PayResultNotifyUrl') = 0 Then
 		Alter Table `tbOperatorParams` Add `PayResultNotifyUrl` Varchar(1000) Default Null Comment '支付结果通知Url（选择线上支付才有）';
 	End If;
+	
+	-- 添加开放电站到具体运营商
+	If fnColumnExists('tbNotifyConfig','OperatorId') = 0 Then
+		Alter Table `tbNotifyConfig` Add `OperatorId` Int(10) unsigned Default Null Comment '运营商Id';
+	End If;
 End ;;
 
 Delimiter ;
